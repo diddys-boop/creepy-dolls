@@ -1,0 +1,118 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Rowdies:wght@300;400;700&display=swap');
+
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #080205;
+            color: #f4f4f4;
+            background-image:url(https://cdn.vectorstock.com/i/500p/58/43/black-chalkboard-background-vector-4305843.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: 'Rowdies';
+            overflow: visible;
+        }
+        header {
+            background-color: #eb659d;
+            padding: 20px;
+            text-align: center;
+           
+        }
+        header a {
+            color: #f4f4f4;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+            
+        }
+        header a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            background-color: #eb659d;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        footer p {
+            margin: 0;
+        }
+        
+        .table-container {
+            margin-top: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        table, th, td {
+            border: 1px solid #444;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #444;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        ul {
+            list-style: square;
+            padding-left: 20px;
+        }
+        .external-link {
+            color: #ffd700;
+        }
+        .doll img {
+            width: 150px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            box-sizing: border-box;
+        }
+       
+        .phone img {
+            position:fixed;
+            top:750px ;
+            right:10px;
+            width:100px;
+          border-radius: 20%;
+          
+        }
+        .doll img {
+           
+            transition: width 2s, height 2s, transform 2s;
+          }
+          
+          .doll img:hover {
+          
+            transform: rotate(360deg);
+          }
+          table {
+             
+            position: relative;
+            animation-name: wow;
+            animation-duration: 4s;
+            animation-direction: reverse;  
+          }
+          
+          @keyframes wow {
+            0%   {background-color:rgb(0, 0, 0); left:0px; top:0px;}
+            25%  {background-color:rgb(0, 0, 0); left:200px; top:0px;}
+            50%  {background-color:rgb(0, 0, 0); left:200px; top:200px;}
+            75%  {background-color:rgb(0, 0, 0); left:0px; top:200px;}
+            100% {background-color:rgb(0, 0, 0); left:0px; top:0px;}
+          }
+
+         @ media (max - width: 800px) {
+
+         }
